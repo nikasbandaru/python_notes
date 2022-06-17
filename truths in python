@@ -1,0 +1,11 @@
+"" -  empty string is treated as false.
+() - empty tuple is treated as false.
+[] - "empty list is treated as false"
+{} - "empty dict is treated as false"
+set() -"empty set is treated as false"
+" " - white space is treated as true
+non-empty-string is treated as true
+non-empty-list is treated as true
+non-empty-set is treated as true
+non-empty-dict is treated as true
+non-empty-tuple is treated as true
