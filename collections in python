@@ -1,0 +1,10 @@
+dictonary:
+key value pair
+empty_dict_1 = {}
+empty_dict_2 = dict() # another way of creating empty dict
+assert empty_dict_1 == empty_dict_2 #both are same
+
+#init from a sequence of tuple pairs, useful in many cases.
+    dict_2 = dict([(1, "one"), (2, "two")])
+    assert __ == dict_2[1]
+    assert __ == dict_2[2]
